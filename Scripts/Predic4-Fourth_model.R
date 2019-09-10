@@ -9,7 +9,6 @@ pacman::p_load(tibble, readr, tidyr, anytime, reshape2, corrplot, ggplot2, caret
                plotly, dplyr,plyr,imager,RColorBrewer,gdata,
                randomForest, tidyr, forecast, lubridate, scatterplot3d, ranger)
 
-setwd("C:/Users/Ibai/Desktop/Part_3/Task_2/Techniques for Wifi Locationing/")
 
 trainingData <- as_tibble(read.csv2("Data/trainingData.csv", sep= ",", stringsAsFactors=FALSE))
 adding <- as_tibble(read.csv2("Data/validationData.csv", sep= ",", stringsAsFactors=FALSE))
