@@ -3,7 +3,6 @@ pacman::p_load(tibble, readr, tidyr, anytime, reshape2, corrplot, ggplot2, caret
                randomForest, tidyr, forecast, lubridate, scatterplot3d, ranger, data.table, h2o)
 
 
-setwd("C:/Users/Ibai/Desktop/Part_3/Task_2/Techniques for Wifi Locationing/")
 
 trainingData <- readRDS("Data/trainingData.rds")
 validationData <- readRDS("Data/validationData.rds")
